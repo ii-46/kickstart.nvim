@@ -900,7 +900,7 @@ require('lazy').setup({
       -- Load the colorscheme here.
       -- Like many other themes, this one has different styles, and you could load
       -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-      vim.cmd.colorscheme 'tokyonight-night'
+      vim.cmd.colorscheme 'tokyonight-moon'
     end,
   },
 
@@ -940,6 +940,37 @@ require('lazy').setup({
         return '%2l:%-2v'
       end
 
+      -- require('mini.animate').setup {
+      --   -- Cursor path
+      --   cursor = {
+      --     enable = true,
+      --
+      --     --      timing = --<function: linear animation, total 250ms>,
+      --   },
+      --
+      --   -- Vertical scroll
+      --   scroll = {
+      --     -- Whether to enable this animation
+      --     enable = true,
+      --
+      --     -- Timing of animation (how steps will progress in time)
+      --     timeout_ms = 200,
+      --   },
+      --
+      --   -- Window resize
+      --   resize = {
+      --     -- Whether to enable this animation
+      --     enable = true,
+      --   },
+      --
+      --   -- Window open
+      --   open = {
+      --     enable = true,
+      --   },
+      --   close = {
+      --     enable = true,
+      --   },
+      -- }
       -- ... and there is more!
       --  Check out: https://github.com/echasnovski/mini.nvim
     end,
